@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+HTML {
+	font-size: 100%;
+}
+
+:root {
+	/* theming PrimeNG */
+	--surface-a: #ffffff;
+	--surface-b: #f4f4f4;
+	--surface-c: #eaeaea;
+	--surface-d: #c8c8c8;
+	--surface-e: #ffffff;
+	--surface-f: #ffffff;
+  
+	--font-family: Roboto, 'Helvetica Neue', sans-serif;
+
+	--text-color: #4B4B4B;
+	--text-color-secondary: #6C6C6C;
+	--primary-color: #E20074;
+	--primary-color-text: #ffffff;
+	--primary-dark-color: #D1006C;
+	--primary-dark-color-text: #ffffff;
+
+	/* theming library */
+	--functional-red-color: #D90000;
+	--functional-yellow-color: #FECB00;
+	--functional-green-color: #009000;
+	--functional-blue-color: #00A1DE;
+
+	--functional-black-color: #000000;
+	--functional-white-color: #FFFFFF;
+	--functional-gray0-color: #767676;
+	--functional-gray1-color: #A4A4A4;
+	--functional-gray2-color: #7C7C7C;
+	--functional-gray3-color: #6C6C6C;
+	--functional-gray4-color: #EDEDED;
+	--functional-gray5-color: #4B4B4B;
+	--functional-gray6-color: #D0D0D0;
+	
+	--enable-border-color: var(--functional-gray5-color);
+	--disble-border-color: var(--functional-gray1-color);
+	
+	/* theming library */
+	--max-width-content-area: 1670px;
+	--input-area-max-width: 300px;
+	--input-area-max-height: 2.5rem;
+	--input-area-margin: 0 0.5rem 0.5rem 0.5rem;		/* oben, rechts, unten, links */
+	--input-padding: 0.5rem;
+}
+
+
+/* overwriting specific component styles */
+[style-overwriting] lib-up-input LABEL {
+    color:red;
+}

@@ -1,0 +1,54 @@
+/*
+@import "./style-variables";
+*/
+
+* {
+	font-family: var(--font-family);
+}
+
+lib-up-input {
+	max-width: var(--input-area-max-width);
+}
+
+/* Native Flex Design */
+.flex-parent, .flex-child {
+	box-sizing: border-box;  
+}
+.flex-parent {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: var(--max-width-content-area);
+	margin: -0.5rem -0.5rem 0 -0.5rem;		/* oben, rechts, unten, links */
+}
+.flex-child {
+	padding: 0.5rem;
+}
+
+@media screen and (min-width: 1550px) {
+	.flex-child {
+		width: 20%;
+	}
+}
+@media screen and (min-width: 1250px) {
+	.flex-child {
+		width: 25%; 
+	}
+}
+@media screen and (min-width: 950px) {
+	.flex-child {
+		width: 33.33%; 
+	}
+}
+@media screen and (min-width: 650px) {
+	.flex-child {
+		width: 50%; 
+	}
+}
+
+.p-grid {
+	max-width: var(--max-width-content-area);
+}
+
+INPUT.app-input {
+	background-color:rgb(255, 130, 134);
+}

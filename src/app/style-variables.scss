@@ -1,0 +1,50 @@
+/* Definitions of Telekom Theme Colours for the new Ultima Portal */
+$primaryColor: #E20074;
+$primaryDarkColor: #D1006C;
+$primaryTextColor: #4B4B4B;
+
+$functionalRedColor: #D90000;		
+$functionalYellowColor: #FECB00;
+$functionalGreenColor: #009000;
+$functionalBlueColor: #00A1DE;
+
+$functionalBlackColor: #000000;
+$functionalWhiteColor: #FFFFFF;
+$functionalGray0Color: #767676;
+$functionalGray1Color: #A4A4A4;
+$functionalGray2Color: #7C7C7C;
+$functionalGray3Color: #6C6C6C;
+$functionalGray4Color: #EDEDED;
+$functionalGray5Color: #4B4B4B;
+$functionalGray6Color: #D0D0D0;
+
+
+$enabledBorderColor: $functionalGray5Color;
+$enabledLabelColor: $functionalGray5Color;
+$enabledLabelWeight: normal;
+
+$disabledBorderColor: $functionalGray1Color;
+$disabledLabelColor: $functionalGray1Color;
+$disabledLabelWeight: normal;
+
+$activeBorderColor: $primaryColor;		    /* border of the active element */
+$activeLabelColor: $functionalGray5Color;	/* label of the active input element */
+$activeLabelWeight: bold;
+
+$hoverBorderColor: $primaryColor;    
+$hoverLabelColor: $functionalGray5Color;
+$hoverLabelWeight: bold;
+
+
+/* to be defined */
+$menuTextColor: #424242;
+$menuActiveColor: #E20074;
+$menuBgColor: #424242;
+$menuHoverColor: #676767;
+$menuActiveColor: #FFC107;
+
+/*$fontFamily: 'Lato Regular', Arial, Helvetica, sans-serif;*/
+$fontFamily: Roboto, 'Helvetica Neue', sans-serif;
+
+$maxWidthContentArea: 1400px;
+$maxWidthFlexColumn: 250px;
